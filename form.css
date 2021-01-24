@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/map.png');
+}
+
+body .form_bg{
+    background: #fff;
+    width: 60%;
+    margin: 3rem auto;
+    border-radius: 10px;
+}
+
+body .background-image{
+    background-image: url('./images/hand_laptop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -1px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+body .background-image h1{
+    padding-top: 5rem;
+}
+
+body .background-image p{
+    padding-bottom: 5rem;
+}
+
+body .form_area{
+    width: 80%;
+    margin: 2rem auto;
+}
+
+body .form_area form{
+    width: 100%;
+}
+
+body .form_area form label{
+    width: 20%;
+    display: block;
+    text-align: right;
+    float: left;
+    margin-right:1rem ;
+}
+
+body .form_area form input, textarea{
+    width: 75%;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+body .form_area form .input_filds{
+    margin-bottom:1rem ;
+}
+
+body button
+{
+    background-color: green;
+    color: white;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 10rem;
+}
